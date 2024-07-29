@@ -24,6 +24,7 @@ class Configuracoes {
             const initialBackgroundColor = LocalStorageService.getItem('backgroundColor') || '#FFFFFF';
             document.getElementById('app').style.backgroundColor = initialBackgroundColor;
         }
+        //muda font size
         let fontSizeValue;
         document.body.style.color = this.textColor;
         document.body.style.fontFamily = this.fontType;
